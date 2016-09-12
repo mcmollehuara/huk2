@@ -39,7 +39,7 @@
 
 
 .layout, .content-wrap, .loader-wrap{
-  left: $sidebar-width;
+  // left: $sidebar-width;
   // @include transition(left $sidebar-transition-time ease-in-out);
 
   @include media-breakpoint-up(md) {
@@ -48,7 +48,7 @@
   }
 
   .nav-collapsed &{
-    left: 50px;
+    left: 0px;
   }
 
   .nav-static &{
@@ -172,14 +172,14 @@
 }
 /*        Left Navigation       */
 /**********************************/
-.left-navigation{
-  // left: $sidebar-width;
-  @include transition(left $sidebar-transition-time ease-in-out);
-  @include media-breakpoint-up(md) {
-    margin-left: -50px;
-    // left: $sidebar-width - $sidebar-icon-state-width;
-  }
-}
+// .left-navigation{
+//   // left: $sidebar-width;
+//   @include transition(left $sidebar-transition-time ease-in-out);
+//   @include media-breakpoint-up(md) {
+//     margin-left: -50px;
+//     // left: $sidebar-width - $sidebar-icon-state-width;
+//   }
+// }
 
 
 .content-wrap{

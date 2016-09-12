@@ -162,6 +162,7 @@ small, .small {
   &:focus{
     @include box-shadow(none);
   }
+  border-radius: 0px;
 }
 
 .form-control-lg {
@@ -187,7 +188,7 @@ small, .small {
 }
 
 label {
-  font-weight: $font-weight-normal;
+  font-weight: $font-weight-normal;   
 }
 
 .help-block{
@@ -736,6 +737,11 @@ legend {
 //
 // Buttons
 // --------------------------------------------------
+// ch
+.btn {
+border-radius: 0px !important;
+font-weight: 600 !important;
+}
 
 .btn {
   .glyphicon {
@@ -753,7 +759,7 @@ legend {
   padding-top: .35rem;
   padding-bottom: .35rem;
 }
-
+// ch
 .btn-rounded{
   @include border-radius(6px);
 }

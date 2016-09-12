@@ -1,14 +1,14 @@
-<nav navbar class="top-navigation navbar navbar-dashboard"></nav>
+<nav navbar class="top-navigation layout navbar navbar-dashboard"></nav>
 <div class="content-wrap">
   <main id="content" class="content view-animate fade-up" role="main">
-    <router-outlet></router-outlet>
-    <div footer></div>
+    <router-outlet></router-outlet>    
   </main>  
+  <div footer></div>
 </div>
 
-<!--
-<nav sidebar id="sidebar" role="navigation" class="sidebar"></nav>
-<nav navbar (toggleSidebarEvent)="toggleSidebarListener($event)" (toggleChatEvent)="toggleChatListener()" class="left-navigation layout navbar navbar-dashboard"></nav>
+
+<!--<nav sidebar id="sidebar" role="navigation" class="sidebar"></nav>
+<nav navbar (toggleSidebarEvent)="toggleSidebarListener($event)" (toggleChatEvent)="toggleChatListener()" class="layout navbar navbar-dashboard"></nav>
 <aside chat-sidebar class="chat-sidebar"></aside>
 
 <div class="content-wrap">
