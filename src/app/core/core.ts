@@ -3,6 +3,7 @@ import {ROUTER_DIRECTIVES, Router, NavigationEnd} from '@angular/router';
 import {FORM_PROVIDERS} from '@angular/common';
 import {Sidebar} from './sidebar/sidebar';
 import {Footer} from './footer/footer';
+import {NavbarTop} from './navbar/navbar-top';
 import {Navbar} from './navbar/navbar';
 import {ChatSidebar} from './chat-sidebar/chat-sidebar';
 import {Widgets} from '../widgets/widgets';
@@ -44,7 +45,7 @@ declare var Tether: any;
     id: 'app'
   },
   providers: [ FORM_PROVIDERS ],
-  directives: [Footer, Sidebar, Navbar, ChatSidebar, ROUTER_DIRECTIVES],
+  directives: [Footer, Sidebar, NavbarTop, ChatSidebar, ROUTER_DIRECTIVES],
   template: require('./core.html')
 })
 export class Core {
