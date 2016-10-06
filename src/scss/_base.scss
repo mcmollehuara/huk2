@@ -39,11 +39,11 @@
 
 
 .layout, .content-wrap, .loader-wrap{
-  // left: $sidebar-width;
-  // @include transition(left $sidebar-transition-time ease-in-out);
+  left: $sidebar-width;
+  @include transition(left $sidebar-transition-time ease-in-out);
 
   @include media-breakpoint-up(md) {
-    // margin-left: $sidebar-icon-state-width;
+    margin-left: $sidebar-icon-state-width;
     left: $sidebar-width - $sidebar-icon-state-width;
   }
 
@@ -161,15 +161,6 @@
   }
 }
 
-/*        Top Navigation       */
-/**********************************/
-.top-navigation{
-  // left: $sidebar-width;
-  // @include transition(left $sidebar-transition-time ease-in-out);
-  @include media-breakpoint-up(md) {
-    margin-left: 0px;
-  }
-}
 
 .content-wrap{
   position: relative;
@@ -1330,6 +1321,6 @@ input[type=search], input.search {
 
 
   .navbar-title{
-  margin-top:25px;  
+  margin-top:12px;  
       margin-right: 15px;
 }
