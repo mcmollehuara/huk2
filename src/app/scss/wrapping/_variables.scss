@@ -1,0 +1,41 @@
+// variables.scss
+//::::::::::
+$gray-dark:              #333333 !default; //#343434 !default;
+$gray:                   #565656 !default; //lighten(#000, 33.5%) !default; // #555
+$gray-light:             #959595 !default; //lighten(#000, 60%) !default;   // #999
+$gray-lighter:           #CCCCCC !default; //lighten(#000, 93.5%) !default; // #eee
+$gray-semi-light:        #808080;
+$gray-semi-lighter:      #ddd;
+
+$brand-primary:         #CD040B !default; //#5d8fc2 !default; //#618fb0 !default;
+$brand-success:         #82CEAC !default; //#64bd63 !default;
+$brand-info:            #ABE0F9 !default; //#5dc4bf !default; //#61c4b8 !default; //#5DADE2 !default;
+$brand-warning:         #FBD362 !default; //#f0b518 !default;
+$brand-danger:          #F9B295 !default; //#dd5826 !default; // #e5603b !default;
+
+$text-muted:            $gray-dark;
+$font-weight-semi-bold: 900 !default;
+
+// Typography
+// -------------------------
+// //Open Sans
+// $font-family: 'Open Sans', sans-serif !default;
+// $font-family-headline: 'Open Sans', sans-serif !default;
+
+////Roboto 
+//$font-family: 'roboto', Arial, sans-serif  !default;
+//$font-family-headline: 'roboto', Arial, sans-serif  !default;
+
+//Neue-hass
+$font-family: 'NeueHaasGroteskDisp W01', Arial, sans-serif;
+$font-family-headline: 'NHaasGroteskTXW01-65Md', Arial, sans-serif;
+//$font-family-headline: 'NHaasGroteskTXW01-75Bd', Arial, sans-serif;
+
+$font-family-sans-serif : $font-family;
+
+
+$border-radius : 0;
+
+$input-border-focus:             $gray;//#4D90FE !default; //webkit focus color
+
+$navbar-height:50px;

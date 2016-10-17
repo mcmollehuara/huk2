@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title><%= webpackConfig.metadata.title %></title>
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="<%= webpackConfig.metadata.title %>">
 
-  <!-- use http://www.favicon-generator.org/ to replace files in public/icon-->
-
-  <meta name="msapplication-TileColor" content="#00bcd4">
-  <meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144x144.png">
-  <meta name="theme-color" content="#00bcd4">
-  <!-- end favicon -->
+  <% if (webpackConfig.htmlElements.headTags) { %>
+  <!-- Configured Head Tags  -->
+  <%= webpackConfig.htmlElements.headTags %>
+  <% } %>
 
   <!-- base url -->
   <base href="<%= webpackConfig.metadata.baseUrl %>">
+
 
 </head>
 
 <body>
 
-  <!-- Google Analytics: change UA-71073175-1 to be your site's ID -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <app>
+    <style>
+      /*
+       * Inline css to add simple styles for loader.
+       * Is going to be replaced by angular after bootstrap.
+       */
+      app {
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        padding-top: 45vh;
+        text-align: center;
+        background-color: #eee;
+        font: 14px sans-serif;
+      }
+    </style>
+    Loading...
+  </app>
 
-    ga('create', 'UA-71073175-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+
   <script data-pace-options='{ "target": ".content-wrap", "ghostTime": 1000 }'></script>
-  <% if (webpackConfig.metadata.ENV === 'development') { %>
+
+  <% if (webpackConfig.metadata.isDevServer && webpackConfig.metadata.HMR !== true) { %>
   <!-- Webpack Dev Server reload -->
-  <script src="http://<%= webpackConfig.metadata.host %>:<%= webpackConfig.metadata.port %>/webpack-dev-server.js"></script>
+  <script src="/webpack-dev-server.js"></script>
   <% } %>
+
 
 </body>
 </html>
