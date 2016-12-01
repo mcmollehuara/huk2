@@ -1,0 +1,16 @@
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+  small,
+  .small {
+    font-family: $font-family-headline;
+  }
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+// .dropdown-menu{
+//   border-radius: 0;
+// }
+
