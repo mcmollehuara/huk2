@@ -1,3 +1,67 @@
 [
-  {"res": "data"}
+  {
+    "id": 1000,
+    "name": "Typography",
+    "status": true,
+    "icon": "",
+    "items": [
+      {
+        "id": 1001,
+        "name": "Headings",
+        "status": true,
+        "icon": "",
+        "items": []
+      },
+      {
+        "id": 1002,
+        "name": "Paragraph",
+        "status": true,
+        "icon": "",
+        "items": []
+      },
+      {
+        "id": 1003,
+        "name": "Bordered & Colours Texts",
+        "status": true,
+        "icon": "",
+        "items": []
+      },
+      {
+        "id": 1003,
+        "name": "Tooltips",
+        "status": true,
+        "icon": "",
+        "items": []
+      },
+      {
+        "id": 1003,
+        "name": "Popovers",
+        "status": true,
+        "icon": "",
+        "items": []
+      },
+      {
+        "id": 1003,
+        "name": "Dropcaps",
+        "status": true,
+        "icon": "",
+        "items": []
+      }
+    ]
+  },
+  {
+    "id": 2000,
+    "name": "Components",
+    "status": true,
+    "icon": "",
+    "items": [
+      {
+        "id": 1001,
+        "name": "",
+        "status": true,
+        "icon": "",
+        "items": []
+      }
+    ]
+  }
 ]

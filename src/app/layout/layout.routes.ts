@@ -3,7 +3,8 @@ import { Layout } from './layout.component';
 // noinspection TypeScriptValidateTypes
 const routes: Routes = [
   { path: '', component: Layout, children: [
-    { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    { path: 'home', loadChildren: () => System.import('../home/home.module') },
     { path: 'dashboard', loadChildren: () => System.import('../dashboard/dashboard.module') },
     { path: 'inbox', loadChildren: () => System.import('../inbox/inbox.module') },
     { path: 'charts', loadChildren: () => System.import('../charts/charts.module') },
