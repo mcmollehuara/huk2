@@ -10,42 +10,42 @@
         "name": "Headings",
         "status": true,
         "icon": "",
-        "items": []
+        "tags":"heading, micom"
       },
       {
         "id": 1002,
         "name": "Paragraph",
         "status": true,
         "icon": "",
-        "items": []
+        "tags":""
       },
       {
         "id": 1003,
         "name": "Bordered & Colours Texts",
         "status": true,
         "icon": "",
-        "items": []
+        "tags":""
       },
       {
         "id": 1003,
         "name": "Tooltips",
         "status": true,
         "icon": "",
-        "items": []
+        "tags":""
       },
       {
         "id": 1003,
         "name": "Popovers",
         "status": true,
         "icon": "",
-        "items": []
+        "tags":""
       },
       {
         "id": 1003,
         "name": "Dropcaps",
         "status": true,
         "icon": "",
-        "items": []
+        "tags":""
       }
     ]
   },
@@ -60,7 +60,7 @@
         "name": "",
         "status": true,
         "icon": "",
-        "items": []
+        "tags":""
       }
     ]
   }

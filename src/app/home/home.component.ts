@@ -9,13 +9,15 @@ import { GroupModel, ComponentModel } from "./model/index";
 
 @Component({
   selector: 'home',
-  templateUrl: './home.template.html',
+  templateUrl: './home.component.html',
   styleUrls: ['./home.style.scss'],
   encapsulation: ViewEncapsulation.None
 })
+
 export class HomeComponent {
   config: any;
   list: Array<GroupModel> = new Array<GroupModel>();
+  searchText: string;
 
   constructor(config: AppConfig, private homeService: HomeService) {
     this.config = config.getConfig();

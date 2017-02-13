@@ -1,5 +1,15 @@
 <div class="row">
-  <div *ngFor="let item of list" class="col-lg-3 col-xs-12">
+  <div class="form-group no-margin">
+    <div class="input-group input-group-dark">
+      <input class="form-control fs-mini"  [(ngModel)]="searchText" type="text" placeholder="Search...">
+      <span class="input-group-addon">
+            <i class="fa fa-search"></i>
+          </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div *ngFor="let item of list | SearchPipe : searchText" class="col-lg-3 col-xs-12">
     <section widget class="widget">
       <!-- .widget>header is generally a place for widget title and widget controls. see .widget in _base.scss -->
       <header>
