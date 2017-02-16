@@ -55,9 +55,9 @@ app, .app {
     }
 
     .circle {
-      width: #{$line-height-base}rem;
-      height: #{$line-height-base}rem;
-      line-height: #{$line-height-base}rem;
+      width: $line-height-base;
+      height: $line-height-base;
+      line-height: $line-height-base;
     }
   }
 }
@@ -645,7 +645,7 @@ app, .app {
   background-color: $sidebar-bg-color;
 
   .form-control {
-    padding: 0.6rem 0.85rem;
+    padding: 10px 14px;
   }
 }
 

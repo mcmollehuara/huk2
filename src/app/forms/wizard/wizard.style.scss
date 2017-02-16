@@ -1,7 +1,7 @@
 @import "../../../../node_modules/bootstrap-application-wizard/src/bootstrap-wizard";
 @import "../../../scss/variables";
-@import "../../../../node_modules/bootstrap/scss/_variables";
-@import "../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 @import "../../../scss/select2-variables";
 @import "../../../../node_modules/select2/src/scss/core";
 @import "../../../../node_modules/select2-bootstrap-theme/src/select2-bootstrap";
@@ -139,7 +139,7 @@ html[dir="rtl"] .select2-search input {
 
   .pager {
     padding-left: 0;
-    margin-top: 1rem;
+    margin-top: 16px;
 
     li {
       display: inline;

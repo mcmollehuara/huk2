@@ -57,7 +57,7 @@
 }
 
 .circle-o{
-  border: #{$line-height-base/5}em solid transparent;
+  border: 5px solid transparent;
 
   &.circle-o-danger{ border-color: $brand-danger };
   &.circle-o-warning{ border-color: $brand-warning };

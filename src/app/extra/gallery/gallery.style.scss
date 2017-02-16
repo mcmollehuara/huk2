@@ -1,7 +1,7 @@
 @import "../../../../node_modules/magnific-popup/dist/magnific-popup";
 @import "../../../scss/variables";
-@import "../../../../node_modules/bootstrap/scss/_variables";
-@import "../../../../node_modules/bootstrap/scss/mixins";
+// @import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
 
 @mixin bs3-make-row($gutter: $grid-gutter-width) {
@@ -135,7 +135,7 @@
   .img-thumbnail{
 
     figcaption {
-      margin: 0.8571rem 0.5714rem 0.8571rem 0.5714rem;
+      margin: 14px 8px;
     }
 
     a{

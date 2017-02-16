@@ -7,8 +7,8 @@
 @import "../../../../node_modules/dropzone/dist/dropzone";
 @import "../../../scss/variables";
 @import "../../../scss/mixins";
-@import "../../../../node_modules/bootstrap/scss/_variables";
-@import "../../../../node_modules/bootstrap/scss/mixins";
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 @import "../../../scss/select2-variables";
 @import "../../../../node_modules/select2/src/scss/core";
 @import "../../../../node_modules/select2-bootstrap-theme/src/select2-bootstrap";
@@ -505,7 +505,7 @@ html[dir="rtl"] .select2-search input {
 .input-group {
   width: auto;
   .input-group-addon {
-    padding: .375rem .75rem .375rem .75rem;
+    padding: 5px 12px 5px 12px;
   }
 }
 

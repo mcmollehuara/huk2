@@ -303,9 +303,9 @@ legend {
 .checkbox input[type="checkbox"],
 .checkbox-inline input[type="checkbox"] {
   position: absolute;
-  margin-top: .25rem;
+  margin-top: 4px;
   // margin-top: 4px \9;
-  margin-left: -1.25rem;
+  margin-left: -18px;
 }
 
 .radio,
@@ -376,7 +376,7 @@ legend {
 }
 
 .table th, .table td {
-  padding: 0.55rem;
+  padding: 8px;
 }
 
 //
@@ -512,7 +512,7 @@ legend {
 .navbar-form{
   .form-control{
     font-size: $navbar-font-size;
-    padding: 0.6rem 0.85rem;
+    padding: 10px 14px;
 
   }
 
@@ -683,8 +683,8 @@ legend {
 }
 
 .btn-sm {
-  padding-top: .35rem;
-  padding-bottom: .35rem;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .btn-rounded{
@@ -885,7 +885,7 @@ small, .small {
 .progress{
   @include box-shadow(none);
   transition: width 0.6s ease;
-  height: 1.3rem;
+  height: 22px;
 }
 
 .progress-bar{

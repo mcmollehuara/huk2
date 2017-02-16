@@ -64,7 +64,7 @@ $text-color:            $gray !default;
 
 $font-size-root: 14px;
 
-$font-size-base:          1rem !default;
+$font-size-base:          16px !default;
 $font-size-larger:        15px;
 $font-size-mini:          13px;
 
@@ -77,7 +77,7 @@ $font-weight-base: $font-weight-thin !default;
 $font-size-smaller: 85% !default;
 
 //** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.5 !default;
+$line-height-base:        24px !default;
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
 
@@ -124,7 +124,7 @@ $widget-padding-vertical: 15px !default;
 $widget-padding-horizontal: 20px !default;
 $widget-bg-color: $white;
 
-$chart-spacer-y: 0.65rem !default;
+$chart-spacer-y: 10px !default;
 
 
 // Bootstrap variables
@@ -145,9 +145,9 @@ $padding-large-horizontal:  16px !default;
 $padding-small-vertical:    5px !default;
 $padding-small-horizontal:  10px !default;
 
-$border-radius:          .25rem !default;
-$border-radius-lg:       .3rem !default;
-$border-radius-sm:       .2rem !default;
+$border-radius:          4px !default;
+$border-radius-lg:       4px !default;
+$border-radius-sm:       3px !default;
 
 
 //== Scaffolding
@@ -181,8 +181,8 @@ $table-border-color:            $gray-semi-lighter !default;
 //
 
 
-$btn-padding-y: .375rem;
-$btn-padding-x-sm:  .75rem;
+$btn-padding-y: 5px;
+$btn-padding-x-sm:  12px;
 $btn-line-height:                1.5;
 $btn-default-bg: $addition-bg !default;
 $btn-secondary-bg: $addition-bg !default;
