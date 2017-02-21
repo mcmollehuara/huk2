@@ -1,8 +1,6 @@
-@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
-// TODO
-// @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/breakpoints";
-@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
-@import "../../scss/variables";
+@import "../../../scss/bootstrap/variables";
+@import "../../../scss/bootstrap/mixins/breakpoints";
+@import "../../../scss/variables";
 
 /***********************************/
 /**          ERROR PAGE           **/

@@ -1,6 +1,6 @@
-@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
-@import "../../../scss/variables";
-@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../../../../scss/bootstrap/_variables";
+@import "../../../../scss/variables";
+@import "../../../../scss/bootstrap/mixins";
 
 .widget-email-count{
   display: inline-block;
@@ -22,7 +22,7 @@
   header {
 
     .form-control {
-      font-size: 14px;
+      font-size: 0.8571rem;
       border: 1px solid #ccc;
       &:focus {
         border-color: #66afe9;

@@ -1,30 +1,49 @@
 <div class="row">
-  <div class="form-group no-margin">
-    <div class="input-group input-group-dark">
-      <input class="form-control fs-mini"  [(ngModel)]="searchText" type="text" placeholder="Search...">
-      <span class="input-group-addon">
+  <div class="col-md-6">
+    <div class="form-group no-margin">
+      <div class="input-group input-group-dark">
+        <input class="form-control fs-mini" [(ngModel)]="searchText" type="text" placeholder="Search...">
+        <span class="input-group-addon">
             <i class="fa fa-search"></i>
           </span>
+      </div>
     </div>
+  </div>
+  <div class="col-md-6">
+
   </div>
 </div>
 <div class="row">
-  <div *ngFor="let item of list | SearchPipe : searchText" class="col-lg-3 col-xs-12">
-    <section widget class="widget">
-      <!-- .widget>header is generally a place for widget title and widget controls. see .widget in _base.scss -->
-      <header>
-        <h6>
-          {{item.name}}
-        </h6>
-        <div class="widget-controls">
-          <a data-widgster="expand" title="Expand" href="#"><i class="glyphicon glyphicon-chevron-up"></i></a>
-          <a data-widgster="collapse" title="Collapse" href="#"><i class="glyphicon glyphicon-chevron-down"></i></a>
-          <a href="#" data-widgster="close"><i class="glyphicon glyphicon-remove"></i></a>
-        </div>
-      </header>
-      <div class="widget-body">
-        {{item.status}}
+  <div *ngFor="let item of list | SearchPipe : searchText" class="col-lg-12 col-xs-12">
+    <h5>
+      {{item.name}}
+    </h5>
+    <div class="row">
+      <div *ngFor="let subItem of item.items" class="col-md-3">
+        <section widget class="widget">
+          <header>
+            <h6>
+              {{subItem.name}}
+            </h6>
+            <div class="widget-controls">
+              <a data-widgster="expand" title="Expand" href="#"><i class="glyphicon glyphicon-chevron-up"></i></a>
+              <a data-widgster="collapse" title="Collapse" href="#"><i class="glyphicon glyphicon-chevron-down"></i></a>
+            </div>
+          </header>
+          <div class="widget-body">
+            <div class="row">
+              <div class="col-md-12">
+                Status: {{subItem.isActive}}
+                <a href="#">Detail</a>
+              </div>
+            </div>
+
+          </div>
+        </section>
       </div>
-    </section>
+
+    </div>
+
   </div>
 </div>
+<div>

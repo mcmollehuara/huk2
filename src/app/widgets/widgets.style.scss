@@ -1,10 +1,10 @@
 @import "../../../node_modules/metrojs/release/MetroJs.Full/MetroJs";
-@import "../../scss/variables";
-@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
-@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../../../scss/variables";
+@import "../../../scss/bootstrap/_variables";
+@import "../../../scss/bootstrap/mixins";
 
 .mt-negative-lg {
-  margin-top: -32px;
+  margin-top: -2.1rem;
 }
 
 /**
@@ -219,7 +219,7 @@
 
   > .nav-item > .nav-link{
     border-radius: 0;
-    padding:12px 0 12px 0;
+    padding: 0.7143rem 0 0.7143rem 0;
 
     color: $gray;
     &:hover{

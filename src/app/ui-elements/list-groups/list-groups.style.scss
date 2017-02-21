@@ -2,9 +2,9 @@ body{
   overflow-x: visible;
 }
 
-@import "../../../scss/variables";
-@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
-@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../../../../scss/variables";
+@import "../../../../scss/bootstrap/_variables";
+@import "../../../../scss/bootstrap/mixins";
 
 /**
  * Nestable

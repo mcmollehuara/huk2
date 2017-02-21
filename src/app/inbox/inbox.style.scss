@@ -1,6 +1,6 @@
-@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
-@import "../../scss/variables";
-@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "../../../scss/bootstrap/_variables";
+@import "../../../scss/variables";
+@import "../../../scss/bootstrap/mixins";
 
 .nav-email-folders{
   > li > .nav-link {

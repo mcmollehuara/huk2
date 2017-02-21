@@ -1,4 +1,4 @@
-# Crossover application 
+# UI and UX application 
 > A demo dashboard that shows continuos integration features. 
 It was made with Angular2 Typescript and Webpack in order to automate tasks.
   
@@ -18,7 +18,7 @@ npm install typings -g
 # start the server
 npm start
 
-go to [http://0.0.0.0:3000](http://0.0.0.0:3000) or [http://localhost:3000](http://localhost:3000) in your browser
+go to [http://0.0.0.0:9000](http://0.0.0.0:9000) or [http://localhost:9000](http://localhost:9000) in your browser
 ```
 
 ### run unit tests (karma-chrome-launcher)

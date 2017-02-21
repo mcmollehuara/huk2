@@ -1,15 +1,17 @@
-@import "../../../../node_modules/ng2-datetime/src/vendor/bootstrap-datepicker/bootstrap-datepicker3.min";
-@import "../../../../node_modules/ng2-datetime/src/vendor/bootstrap-timepicker/bootstrap-timepicker.min";
+// @import "../../../../node_modules/ng2-datetime/src/vendor/bootstrap-datepicker/bootstrap-datepicker3.min";
+// @import "../../../../node_modules/ng2-datetime/src/vendor/bootstrap-timepicker/bootstrap-timepicker.min";
+@import "../../../../node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min";
+@import "../../../../node_modules/bootstrap-timepicker/css/bootstrap-timepicker.min";
 @import "../../../../node_modules/bootstrap-colorpicker/dist/css/bootstrap-colorpicker";
 @import "../../../../node_modules/bootstrap-markdown/css/bootstrap-markdown.min";
 @import "../../../../node_modules/bootstrap-select/dist/css/bootstrap-select";
 @import "../../../../node_modules/jasny-bootstrap/dist/css/jasny-bootstrap";
 @import "../../../../node_modules/dropzone/dist/dropzone";
-@import "../../../scss/variables";
-@import "../../../scss/mixins";
-@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
-@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
-@import "../../../scss/select2-variables";
+@import "../../../../scss/variables";
+@import "../../../../scss/mixins";
+@import "../../../../scss/bootstrap/_variables";
+@import "../../../../scss/bootstrap/mixins";
+@import "../../../../scss/select2-variables";
 @import "../../../../node_modules/select2/src/scss/core";
 @import "../../../../node_modules/select2-bootstrap-theme/src/select2-bootstrap";
 
@@ -505,7 +507,7 @@ html[dir="rtl"] .select2-search input {
 .input-group {
   width: auto;
   .input-group-addon {
-    padding: 5px 12px 5px 12px;
+    padding: .375rem .75rem .375rem .75rem;
   }
 }
 

@@ -2,66 +2,146 @@
   {
     "id": 1000,
     "name": "Typography",
-    "status": true,
+    "isActive": true,
     "icon": "",
     "items": [
       {
         "id": 1001,
         "name": "Headings",
-        "status": true,
+        "isActive": true,
         "icon": "",
-        "tags":"heading, micom"
+        "tags": "heading, micom"
       },
       {
         "id": 1002,
         "name": "Paragraph",
-        "status": true,
+        "isActive": true,
         "icon": "",
-        "tags":""
+        "tags": ""
       },
       {
         "id": 1003,
         "name": "Bordered & Colours Texts",
-        "status": true,
+        "isActive": true,
         "icon": "",
-        "tags":""
+        "tags": ""
       },
       {
         "id": 1003,
         "name": "Tooltips",
-        "status": true,
+        "isActive": true,
         "icon": "",
-        "tags":""
+        "tags": ""
       },
       {
         "id": 1003,
         "name": "Popovers",
-        "status": true,
+        "isActive": true,
         "icon": "",
-        "tags":""
+        "tags": ""
       },
       {
         "id": 1003,
         "name": "Dropcaps",
-        "status": true,
+        "isActive": true,
         "icon": "",
-        "tags":""
+        "tags": ""
       }
     ]
   },
   {
     "id": 2000,
-    "name": "Components",
-    "status": true,
+    "name": "Elements",
+    "isActive": true,
     "icon": "",
     "items": [
       {
-        "id": 1001,
-        "name": "",
-        "status": true,
+        "id": 2001,
+        "name": "Button",
+        "isActive": true,
         "icon": "",
-        "tags":""
+        "tags": ""
       }
+    ]
+  },
+  {
+    "id": 3000,
+    "name": "List",
+    "isActive": true,
+    "icon": "",
+    "items": [
+      {
+        "id": 3001,
+        "name": "Breadcrumb",
+        "isActive": true,
+        "icon": "",
+        "tags": ""
+      }
+    ]
+  },
+  {
+    "id": 4000,
+    "name": "Views",
+    "isActive": true,
+    "icon": "",
+    "items": [
+      {
+        "id": 4001,
+        "name": "Cards",
+        "isActive": true,
+        "icon": "",
+        "tags": ""
+      }
+    ]
+  },
+  {
+    "id": 5000,
+    "name": "Inputs",
+    "isActive": true,
+    "icon": "",
+    "items": [
+      {
+        "id": 5001,
+        "name": "Datetime Picker",
+        "isActive": true,
+        "icon": "",
+        "tags": ""
+      },
+      {
+        "name": "Time Picker",
+        "id": 5002,
+        "isActive": true,
+        "icon": "",
+        "tags": ""
+      },
+      {
+        "id": 5003,
+        "name": "Radio Button",
+        "isActive": true,
+        "icon": "",
+        "tags": ""
+      },
+      {
+        "id": 5004,
+        "name": "Radio Button",
+        "isActive": true,
+        "icon": "",
+        "tags": ""
+      },
+      {
+        "id": 5005,
+        "name": "Checkbox",
+        "isActive": true,
+        "icon": "",
+        "tags": ""
+      },
+      {
+        "id": 5006,
+        "name": "Dropdown",
+        "isActive": true,
+        "icon": "",
+        "tags": ""
+      }            
     ]
   }
 ]
