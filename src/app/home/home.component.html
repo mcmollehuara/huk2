@@ -19,7 +19,7 @@
       {{item.name}}
     </h5>
     <div class="row">
-      <div *ngFor="let subItem of item.items" class="col-md-3">
+      <div *ngFor="let subItem of item.items" class="col-md-2">
         <section widget class="widget">
           <header>
             <h6>
@@ -30,14 +30,31 @@
               <a data-widgster="collapse" title="Collapse" href="#"><i class="glyphicon glyphicon-chevron-down"></i></a>
             </div>
           </header>
-          <div class="widget-body">
-            <div class="row">
-              <div class="col-md-12">
-                Status: {{subItem.isActive}}
-                <a href="#">Detail</a>
+          <div class="widget-body clearfix">
+            <div class="row flex-nowrap">
+              <div class="col-xs-3">
+                <span class="widget-icon">
+              <i class="glyphicon glyphicon-globe text-primary"></i>
+            </span>
+              </div>
+              <div class="col-xs-9">
+                <strong class="no-margin">Status:</strong>
+                <span>{{subItem.status}}</span>
+                <strong class="no-margin">Type:</strong>
+                <span>{{subItem.type}}</span>
+                <strong class="no-margin">Version:</strong>
+                <span>{{subItem.version}}</span>
               </div>
             </div>
+            <div class="row flex-nowrap">
+              <div class="col-xs-12">
+                <h6 class="no-margin">Tags:</h6>
+                <span *ngFor="let tag of subItem.tags" class="badge">
+                  {{tag}}
+                </span>
+              </div>
 
+            </div>
           </div>
         </section>
       </div>

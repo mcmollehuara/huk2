@@ -1,147 +1,304 @@
 [
   {
+    "id": 5000,
+    "name": "Inputs",
+    "description": "Description",
+    "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+    "status": "Branded",
+    "icon": "",
+    "items": [
+      {
+        "id": 5001,
+        "name": "Autocomplete",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": ["Input", "Autocomplete"]
+      },
+      {
+        "id": 5001,
+        "name": "Checkbox",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": ["Input", "Checkbox"]
+      },
+      {
+        "name": "Date Picker",
+        "id": 5002,
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7",  
+        "status": "Branded",
+        "icon": "",
+        "tags": ["Input", "Date Picker"]
+      },
+      {
+        "id": 5003,
+        "name": "Datetime Picker",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": ["Input", "Datetime Picker"]
+      },
+      {
+        "id": 5004,
+        "name": "Dropdown",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+         "tags": ["Input", "Dropdown"]
+      },
+      {
+        "id": 5005,
+        "name": "Listbox",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+         "tags": ["Input", "Listbox"]
+      },
+      {
+        "id": 5006,
+        "name": "Password",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+         "tags": ["Input", "Password"]
+      },
+      {
+        "id": 5006,
+        "name": "Radio Button",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": ["Input", "Radio Button"]
+      },
+      {
+        "id": 5006,
+        "name": "Rating",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+         "tags": ["Input", "Rating"]
+      },
+      {
+        "id": 5006,
+        "name": "Select Button",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+         "tags": ["Input", "Select Button"]
+      },
+      {
+        "id": 5006,
+        "name": "Select List Box",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": []
+      },
+      {
+        "id": 5006,
+        "name": "Multi Select",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": []
+      },
+      {
+        "id": 5006,
+        "name": "Slider",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": []
+      },
+      {
+        "id": 5006,
+        "name": "Spinner",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": []
+      },
+      {
+        "id": 5006,
+        "name": "Switch",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": []
+      },
+      {
+        "id": 5006,
+        "name": "Text",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": []
+      },
+      {
+        "id": 5006,
+        "name": "Text Area",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": []
+      },
+      {
+        "id": 5006,
+        "name": "Time Picker",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": []
+      },
+      {
+        "id": 5006,
+        "name": "Toggle Button",
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
+        "icon": "",
+        "tags": []
+      }
+    ]
+  },
+  {
     "id": 1000,
     "name": "Typography",
-    "isActive": true,
+    "description": "Description",
+    "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+    "status": "Branded",
     "icon": "",
     "items": [
       {
         "id": 1001,
         "name": "Headings",
-        "isActive": true,
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
         "icon": "",
-        "tags": "heading, micom"
+        "tags": ["heading, micom"]
       },
       {
         "id": 1002,
         "name": "Paragraph",
-        "isActive": true,
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
         "icon": "",
-        "tags": ""
+        "tags": []
       },
       {
         "id": 1003,
         "name": "Bordered & Colours Texts",
-        "isActive": true,
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
         "icon": "",
-        "tags": ""
+        "tags": []
       },
       {
         "id": 1003,
         "name": "Tooltips",
-        "isActive": true,
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
         "icon": "",
-        "tags": ""
+        "tags": []
       },
       {
         "id": 1003,
         "name": "Popovers",
-        "isActive": true,
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
         "icon": "",
-        "tags": ""
+        "tags": []
       },
       {
         "id": 1003,
         "name": "Dropcaps",
-        "isActive": true,
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
         "icon": "",
-        "tags": ""
+        "tags": []
       }
     ]
   },
   {
     "id": 2000,
     "name": "Elements",
-    "isActive": true,
+    "description": "Description",
+    "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+    "status": "Branded",
     "icon": "",
     "items": [
       {
         "id": 2001,
         "name": "Button",
-        "isActive": true,
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
         "icon": "",
-        "tags": ""
+        "tags": []
       }
     ]
   },
   {
     "id": 3000,
     "name": "List",
-    "isActive": true,
+    "description": "Description",
+    "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+    "status": "Branded",
     "icon": "",
     "items": [
       {
         "id": 3001,
         "name": "Breadcrumb",
-        "isActive": true,
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
         "icon": "",
-        "tags": ""
+        "tags": []
       }
     ]
   },
   {
     "id": 4000,
     "name": "Views",
-    "isActive": true,
+    "description": "Description",
+    "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+    "status": "Branded",
     "icon": "",
     "items": [
       {
         "id": 4001,
         "name": "Cards",
-        "isActive": true,
+        "description": "Description",
+        "isActive": true, "type": "Bootstrap", "version": "3.3.7", 
+        "status": "Branded",
         "icon": "",
-        "tags": ""
+        "tags": []
       }
-    ]
-  },
-  {
-    "id": 5000,
-    "name": "Inputs",
-    "isActive": true,
-    "icon": "",
-    "items": [
-      {
-        "id": 5001,
-        "name": "Datetime Picker",
-        "isActive": true,
-        "icon": "",
-        "tags": ""
-      },
-      {
-        "name": "Time Picker",
-        "id": 5002,
-        "isActive": true,
-        "icon": "",
-        "tags": ""
-      },
-      {
-        "id": 5003,
-        "name": "Radio Button",
-        "isActive": true,
-        "icon": "",
-        "tags": ""
-      },
-      {
-        "id": 5004,
-        "name": "Radio Button",
-        "isActive": true,
-        "icon": "",
-        "tags": ""
-      },
-      {
-        "id": 5005,
-        "name": "Checkbox",
-        "isActive": true,
-        "icon": "",
-        "tags": ""
-      },
-      {
-        "id": 5006,
-        "name": "Dropdown",
-        "isActive": true,
-        "icon": "",
-        "tags": ""
-      }            
     ]
   }
 ]
