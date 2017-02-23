@@ -3,7 +3,6 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'shortcodes-input',
-  styleUrls: ['./input.style.scss'],
   templateUrl: './input.template.html',
   encapsulation: ViewEncapsulation.None
   // host: {
