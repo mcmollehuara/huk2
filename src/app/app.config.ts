@@ -5,9 +5,9 @@ declare let jQuery: any;
 @Injectable()
 export class AppConfig {
   config = {
-    name: 'uix',
-    title: 'uix dashboard',
-    version: '3.2.0',
+    name: '01',
+    title: '010101 dashboard',
+    version: '0.0.1',
     /**
      * Whether to print and alert some log information
      */

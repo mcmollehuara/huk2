@@ -17,7 +17,7 @@ const ContextReplacementPlugin = require('webpack/lib/ContextReplacementPlugin')
  */
 const HMR = helpers.hasProcessFlag('hot');
 const METADATA = {
-  title: 'uix',
+  title: '01',
   baseUrl: '/',
   isDevServer: helpers.isWebpackDevServer()
 };

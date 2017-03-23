@@ -1,7 +1,7 @@
 {
-  "name": "uix",
+  "name": "010101",
   "version": "3.3.0",
-  "description": "uix",
+  "description": "010101",
   "scripts": {
     "install": "napa",
     "build:dev": "webpack --config config/webpack.dev.js --progress --profile",

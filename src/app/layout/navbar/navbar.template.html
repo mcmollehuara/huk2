@@ -1,10 +1,9 @@
 <div class="container-fluid">
-	<!-- .navbar-header contains links seen on xs & sm screens -->
 	<div class="navbar-header">
 		<ul class="nav navbar-nav">
 			<li class="nav-item">
-				<a href="#">
-					<img src="assets/img/wrapping/logo.png" alt="Logo" style="height:36px">
+				<a href="#" style="font-size: xx-large;font-weight: bolder;text-decoration: none;">
+					010101 
 				</a>
 			</li>
 			<li class="nav-item">
@@ -21,18 +20,8 @@
 					<span class="rounded rounded-lg bg-gray text-white hidden-md-up"><i class="fa fa-bars fa-lg"></i></span>
 					<i class="fa fa-bars fa-lg hidden-sm-down"></i>
 				</a>
-			</li>
-			<!--<li class="nav-item ml-sm hidden-sm-down"><a class="nav-link" href="#"><i class="fa fa-refresh fa-lg"></i></a></li>
-			<li class="nav-item ml-n-xs hidden-sm-down"><a class="nav-link" href="#"><i class="fa fa-times fa-lg"></i></a></li>-->
-		</ul>
-		<!--<ul class="nav navbar-nav navbar-right hidden-md-up">
-			<li class="nav-item">
-				
-				<a class="nav-link" href="#" (click)="toggleChat()">
-					<span class="rounded rounded-lg bg-gray text-white"><i class="fa fa-globe fa-lg"></i></span>
-				</a>
-			</li>
-		</ul>-->
+			</li>			
+		</ul>		
 		<a class="navbar-brand hidden-md-up" [routerLink]=" ['/app/dashboard'] ">
 			<i class="fa fa-circle text-gray mr-n-sm"></i>
 			<i class="fa fa-circle text-warning"></i> &nbsp; {{config.name}} &nbsp;
@@ -41,35 +30,9 @@
 		</a>
 	</div>
 
-	<!-- this part is hidden for xs screens -->
 	<div class="collapse navbar-collapse box-shadow-lighter">
-		<!-- search-results form! link it to your search-results server -->
-		<!--<form class="navbar-form pull-xs-left" role="search" #f="ngForm" (ngSubmit)="onDashboardSearch(f)">
-			<div class="form-group">
-				<div class="input-group input-group-no-border">
-					<span class="input-group-addon">
-              <i class="fa fa-search"></i>
-          </span>
-					<input class="form-control" name="search" ngModel type="text" placeholder="Search Dashboard">
-				</div>
-			</div>
-		</form>-->
 		<ul class="nav navbar-nav pull-xs-right" (click)="$event.preventDefault()">
-			<li class="nav-item dropdown">
-				<!--<a class="nav-link dropdown-toggle dropdown-toggle-notifications" id="notifications-dropdown-toggle" data-toggle="dropdown">
-					<span class="thumb-sm avatar pull-xs-left">
-                    <img class="img-circle" src="assets/img/wrapping/user.png" alt="...">
-                </span> &nbsp; Philip <strong>Smith</strong>&nbsp;
-					<span class="circle bg-warning fw-bold">
-                    13
-                </span>
-					<b class="caret"></b>
-				</a>-->
-				<!-- ready to use notifications dropdown. inspired by smartadmin template.
-                     consists of three components:
-                     notifications, messages, progress. leave or add what's important for you.
-                     uses uix's ajax-load plugin for async content loading. See #load-notifications-btn -->
-				<!--<div notifications class="dropdown-menu dropdown-menu-right animated animated-fast fadeInUp"></div>-->
+			<li class="nav-item dropdown">				
 			</li>
 			<li class="nav-item dropdown">
 				<a href class="nav-link dropdown-toggle" data-toggle="dropdown">
@@ -83,22 +46,7 @@
 					<li class="dropdown-divider"></li>
 					<li><a class="dropdown-item" [routerLink]=" ['/login'] "><i class="fa fa-sign-out"></i> &nbsp; Log Out</a></li>
 				</ul>
-			</li>
-			<!--<li class="nav-item">
-				<a class="nav-link" href="#" (click)="toggleChat()" id="toggle-chat">
-					<i class="fa fa-globe fa-lg"></i>
-				</a>
-				<div id="chat-notification" class="chat-notification hide" (click)="toggleChat()">
-					<div class="chat-notification-inner">
-						<h6 class="title">
-							<span class="thumb-xs">
-                  <img src="assets/img/people/a6.jpg" class="img-circle mr-xs pull-xs-left">
-              </span> Jess Smith
-						</h6>
-						<p class="text">Hi there! <br> This is a completely new version of Sing App <br> built with <strong class="text-danger">Angular 2.0 Final Release</strong>							</p>
-					</div>
-				</div>
-			</li>-->
+			</li>			
 		</ul>
 	</div>
 </div>
